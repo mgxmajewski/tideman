@@ -1,4 +1,4 @@
-//Github test - 2 
+//Runoff app
 #include <cs50.h>
 #include <stdio.h>
 
