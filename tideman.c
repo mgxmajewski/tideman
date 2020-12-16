@@ -104,6 +104,7 @@ bool vote(int rank, string name, int ranks[])
         int valid_vote = strcmp(candidates[i], name);
         if (valid_vote == 0)
         {
+            ranks[i] = i;
             return true;
         }
     }
