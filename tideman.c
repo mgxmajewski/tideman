@@ -99,8 +99,16 @@ int main(int argc, string argv[])
 // Update ranks given a new vote
 bool vote(int rank, string name, int ranks[])
 {
-    // TODO
-    return false;
+    for (int i = 0; i < candidate_count; i++)
+    {
+        preferences[MAX][MAX] = i;
+        return true;
+    } 
+    else
+    {
+        return false;
+    }
+    
 }
 
 // Update preferences given one voter's ranks
