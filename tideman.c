@@ -103,12 +103,8 @@ bool vote(int rank, string name, int ranks[])
     {
         preferences[MAX][MAX] = i;
         return true;
-    } 
-    else
-    {
-        return false;
     }
-    
+    return false;
 }
 
 // Update preferences given one voter's ranks
